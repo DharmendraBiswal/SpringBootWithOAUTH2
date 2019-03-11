@@ -71,7 +71,7 @@ Example: API Request GET: http://localhost:8082/springbootOAuth2/users/user
         click on "params" button and provide the details as below:
             access_token: above value
        
-       * On sucessful request, you will recive al the user details from DB.
+       * On sucessful request, you will receive all the user details from DB.
    
    
    
