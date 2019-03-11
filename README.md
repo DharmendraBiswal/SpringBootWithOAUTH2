@@ -35,7 +35,7 @@ The secured API's will be access by using the  access-token.
 
 1.Steps to generate access-refresh-token:
 ----------------------------------------
-API POST Request:http://localhost:8082/springbootOAuth2/oauth/token
+  API POST Request:http://localhost:8082/springbootOAuth2/oauth/token
    Authorization:
    --------------
    username:dharmen-client
