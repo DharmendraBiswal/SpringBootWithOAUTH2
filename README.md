@@ -35,22 +35,22 @@ The secured API's will be access by using the  access-token.
 
 1.Steps to generate access-refresh-token:
 ----------------------------------------
-  API POST Request:http://localhost:8082/springbootOAuth2/oauth/token
-   Authorization:
-   --------------
-   username:dharmen-client
-   password:dharmen-secret
-   
-   Click on "Update Request" button on Postman.
-   After clicking, you will get a Header "Authorization" with a value in the Headers tab.
-   
-   body (x-www-form-urlencoded):
-   --------------------------------
-   username:present in your DB(User table)
-   
-   password:password
-   
-   grant_type:password
+   API POST Request:http://localhost:8082/springbootOAuth2/oauth/token
+       Authorization:
+       --------------
+       username:dharmen-client
+       password:dharmen-secret
+
+       Click on "Update Request" button on Postman.
+       After clicking, you will get a Header "Authorization" with a value in the Headers tab.
+
+       body (x-www-form-urlencoded):
+       --------------------------------
+       username:present in your DB(User table)
+
+       password:password
+
+       grant_type:password
    
    *If everything goes fine, then you will receive:
    
